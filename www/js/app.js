@@ -46,7 +46,7 @@ function onShowLink() {
     $.mobile.changePage("#ShowPage");
 }
 
-///// Delete memo
+///// Delete memo メモを消す所　ここを変更する
 function onDeleteLink() {
     if (!confirm("Are you sure to delete this memo?")) {
       return;
@@ -70,4 +70,3 @@ function onReady() {
 }
 
 $(onReady); // on DOMContentLoaded
-
